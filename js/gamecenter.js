@@ -37,7 +37,7 @@ class ServerComm {
     }
 
     static ajaxPost(data, callback) {
-        let url = '/game'
+        /*let url = '/game'
         $.post(url, JSON.stringify(data))
                 .done(function (data, status) {
                     $('#status').addClass("label-success").removeClass("label-warning");
@@ -49,6 +49,7 @@ class ServerComm {
                     $('#status').addClass("label-warning").removeClass("label-success");
                     $('#status').text('OFFLINE');
                 })
+                */
     }
 }
 
